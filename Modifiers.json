@@ -1,0 +1,82 @@
+{
+  "Modifiers": {
+    "commands": [
+      {
+        "name": "modifiers.listallmodifiers",
+        "description": "Prints all items with modifiers, and the modifiers themselves, to the server console."
+      },
+      {
+        "name": "modifiers.listmodifiers",
+        "description": "Prints all modifiers for a specific item to the server console.",
+        "example": "modifiers.listmodifiers \"rock\"",
+        "effect": "Prints all modifiers for the Rock item to the server console."
+      },
+      {
+        "name": "modifiers.clearallmodifiers",
+        "description": "Removes all modifiers from all items."
+      },
+      {
+        "name": "modifiers.clearmodifier",
+        "description": "Removes a previously applied modifier from an item, or all modifiers if 'all' is specified.",
+        "examples": [
+          {
+            "example": "modifiers.clearmodifier rock collection",
+            "effect": "Removes the collection modifier from the Rock item."
+          },
+          {
+            "example": "modifiers.clearmodifier rock all",
+            "effect": "Removes all modifiers from the Rock item."
+          }
+        ]
+      },
+      {
+        "name": "modifiers.setmodifier collection",
+        "description": "Sets the relative collection rate of 'pickup-ables' like nodettes and harvestables like hemp.",
+        "example": "modifiers.setmodifier \"stones\" collection 2",
+        "effect": "Doubles (2x) stone pickup from stone nodettes."
+      },
+      {
+        "name": "modifiers.setmodifier gather",
+        "description": "Sets the relative collection rate of 'gatherables' like trees and ore-nodes.",
+        "example": "modifiers.setmodifier \"wood\" gather 3",
+        "effect": "Triples wood gather rate on trees."
+      },
+      {
+        "name": "modifiers.setmodifier tool",
+        "description": "Sets the relative 'gather rate' of a tool.",
+        "example": "modifiers.setmodifier \"hatchet\" tool 2",
+        "effect": "Doubles gather rate on Hatchets."
+      },
+      {
+        "name": "modifiers.setmodifier loot",
+        "description": "Sets the relative amount of 'loot' that spawns.",
+        "example": "modifiers.setmodifier \"scrap\" loot 3",
+        "effect": "Triples (3x) the amount of scrap spawned from scrap resources."
+      },
+      {
+        "name": "modifiers.setmodifier cookspeed",
+        "description": "Sets the relative 'cooking speed' of furnace-able items.",
+        "example": "modifiers.setmodifier \"metal.ore\" cookspeed 3",
+        "effect": "Triples (3x) the cook speed of Metal Ore."
+      },
+      {
+        "name": "modifiers.setmodifier cookamount",
+        "description": "Sets the relative 'cooking yield' of a furnace-able item.",
+        "example": "modifiers.setmodifier \"metal.refined\" cookamount 3",
+        "effect": "Triples (3x) yield when smelting HQM."
+      },
+      {
+        "name": "craft.furnaceusagemultiplier",
+        "description": "Controls the relative amount of Low Grade Fuel that furnaces use.",
+        "example": "craft.furnaceusagemultiplier 2",
+        "effect": "Furnaces will burn twice as much fuel when active."
+      },
+      {
+        "name": "craft.itemcookspeedmultiplier",
+        "description": "Controls the relative speed of Furnace cooking.",
+        "example": "craft.itemcookspeedmultiplier 2",
+        "effect": "Furnaces will cook twice as fast."
+      }
+    ]
+  }
+}
