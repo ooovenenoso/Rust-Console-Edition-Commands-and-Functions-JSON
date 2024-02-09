@@ -1,0 +1,14 @@
+{
+  "GamblingWheelSettings": [
+    {
+      "name": "bigwheelgame.forcedbigwheelhittype",
+      "description": "Forces the Gambling Wheel to land on the chosen colour: Yellow = '0', Green = '1', Blue = '2', Purple = '3', Red = '4', Random = '-1'.",
+      "example": "bigwheelgame.forcedbigwheelhittype \"2\""
+    },
+    {
+      "name": "bigwheelgame.spinfrequencyseconds",
+      "description": "Defines how often the Gambling Wheel spins. Lower is faster. (Int is a whole number)",
+      "example": "bigwheelgame.spinfrequencyseconds \"45\""
+    }
+  ]
+}
