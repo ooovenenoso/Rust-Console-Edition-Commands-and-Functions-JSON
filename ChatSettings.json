@@ -1,0 +1,14 @@
+{
+  "ChatSettings": [
+    {
+      "name": "chat.enabled",
+      "description": "Toggles the chat in game.",
+      "example": "chat.enabled \"1\""
+    },
+    {
+      "name": "chat.serverlog",
+      "description": "Toggles printing the in-game chat to the console.",
+      "example": "chat.serverlog \"1\""
+    }
+  ]
+}
