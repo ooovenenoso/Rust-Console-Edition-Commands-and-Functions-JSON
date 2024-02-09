@@ -1,0 +1,19 @@
+{
+  "commands": [
+    {
+      "commandName": "env.addtime",
+      "description": "Adds a specified number of hours to the current time. This can be useful for triggering server events that require a certain amount of time to pass. 'int' is a whole number representing hours.",
+      "example": "env.addtime \"2\""
+    },
+    {
+      "commandName": "env.progresstime",
+      "description": "Enables or disables time progression on the server. Use '0' to stop and '1' to start the day/night cycle.",
+      "example": "env.progresstime \"1\""
+    },
+    {
+      "commandName": "env.time",
+      "description": "Sets the time to the specified hour using a 24-hour clock format. This can be used to directly control the server's time.",
+      "example": "env.time \"11\""
+    }
+  ]
+}
