@@ -1,0 +1,50 @@
+{
+  "CraftingSettings": [
+    {
+      "name": "craft.basecraftspeed",
+      "description": "Affects the default crafting speed. Higher is faster, default is 1.",
+      "example": "craft.basecraftspeed \"2\""
+    },
+    {
+      "name": "craft.cleardefaultblueprint",
+      "description": "Clears the list of default blueprints, resetting to Rock & Torch."
+    },
+    {
+      "name": "craft.freecrafting",
+      "description": "Makes all crafting cost no resources.",
+      "example": "craft.freecrafting \"1\""
+    },
+    {
+      "name": "craft.instantcrafting",
+      "description": "Makes all crafting instant.",
+      "example": "craft.instantcrafting \"1\""
+    },
+    {
+      "name": "construct.freeupgrading",
+      "description": "Toggles the ability to upgrade building blocks without consuming resources.",
+      "example": "construct.freeupgrading \"1\""
+    },
+    {
+      "name": "craft.adddefaultblueprint",
+      "description": "Adds the 'item blueprint' to the player’s inventory upon spawning.",
+      "example": "craft.adddefaultblueprint \"shortname\""
+    },
+    {
+      "name": "craft.removedefaultblueprint",
+      "description": "Removes the 'item blueprint' from the list of default items on spawn.",
+      "example": "craft.removedefaultblueprint \"shortname\""
+    },
+    {
+      "name": "construct.getbuildinginfo",
+      "description": "Prints the building information for the structure you’re looking at to the console log."
+    },
+    {
+      "name": "construct.getvendingmachineinfo",
+      "description": "Prints the building information for the vending machine you’re looking at to the console log."
+    },
+    {
+      "name": "construct.nukebuilding",
+      "description": "Obliterates the target building. Takes a Building ID, found by running the getbuildinginfo command."
+    }
+  ]
+}
