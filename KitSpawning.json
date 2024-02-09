@@ -1,0 +1,70 @@
+{
+  "KitSpawning": {
+    "commands": [
+      {
+        "name": "kit list",
+        "description": "Lists active kits on the server in the console."
+      },
+      {
+        "name": "kit add",
+        "description": "Adds an item to the kit, or creates a new kit if no kits with your chosen name exist. Condition options are numerical values, container options include \"Main\", \"Belt\", and \"Wear\".",
+        "example": "kit add \"NewKit1\" \"rifle.ak\" 1 1 Belt",
+        "effect": "Creates a kit called NewKit1, adds an AK rifle to it, and places that item in a player’s hotbar when active."
+      },
+      {
+        "name": "kit remove",
+        "description": "Removes an item from the kit, deletes it if empty.",
+        "example": "kit remove \"NewKit1\" \"1234\"",
+        "effect": "Removes the Assault Rifle from NewKit1. If the kit is empty it then deletes the kit completely."
+      },
+      {
+        "name": "kit delete",
+        "description": "Deletes a kit, regardless of how many items are in it.",
+        "example": "kit delete \"NewKit1\"",
+        "effect": "Deletes NewKit1."
+      },
+      {
+        "name": "kit edit changename",
+        "description": "Changes the defined kit name to a new name.",
+        "example": "kit edit \"NewKit1\" changename \"NewKitName\"",
+        "effect": "Changes NewKit1’s name to NewKitName."
+      },
+      {
+        "name": "kit edit addgroup",
+        "description": "Adds the defined kit to spawn for all users in the defined group.",
+        "example": "kit edit \"NewKit1\" addgroup \"VIP\"",
+        "effect": "Makes NewKit1 appear in the inventory by default for all VIP tier server users."
+      },
+      {
+        "name": "kit edit removegroup",
+        "description": "Removes the defined kit from spawning for all users in the defined group.",
+        "example": "kit edit \"NewKit1\" removegroup \"VIP\"",
+        "effect": "Makes NewKit1 no longer appear in the inventory by default for VIP tier server users."
+      },
+      {
+        "name": "kit givetogroup",
+        "description": "Gives a defined kit to a defined group once.",
+        "example": "kit givetogroup \"NewKit1\" \"VIP\"",
+        "effect": "Gives NewKit1 to all VIP tier players' inventories. Note: the kit will be lost upon dying."
+      },
+      {
+        "name": "kit givetoplayer",
+        "description": "Gives a defined kit to a defined player once.",
+        "example": "kit givetoplayer \"NewKit1\" \"2StageFright\"",
+        "effect": "Gives NewKit1 to player with the gamertag 2StageFright, it will appear in their inventories. Note: the kit will be lost upon dying."
+      },
+      {
+        "name": "kit givetoall",
+        "description": "Gives a defined kit to all players once.",
+        "example": "kit givetoall \"NewKit1\"",
+        "effect": "Gives NewKit1 to all players, it will appear in their inventories. Note: the kit will be lost upon dying."
+      },
+      {
+        "name": "kit info",
+        "description": "Provides info about the given kit.",
+        "example": "kit info \"NewKit1\"",
+        "effect": "Assuming the kit \"NewKit1\" includes an Assault Rifle and Metal Facemask, returns the following information."
+      }
+    ]
+  }
+}
