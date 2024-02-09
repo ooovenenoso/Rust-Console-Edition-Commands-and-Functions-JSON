@@ -1,0 +1,37 @@
+{
+  "AISettings": [
+    {
+      "name": "ai.addignoreplayer",
+      "description": "Adds the target ID to the NPCs ignore-list, meaning that they won’t be targeted by hostile AI.",
+      "example": "ai.addignoreplayer \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "ai.brainstats",
+      "description": "Prints the amount of 'brains' on the map. Each AI has 1 brain."
+    },
+    {
+      "name": "ai.clearignoredplayers",
+      "description": "Clears the ignore-list, meaning everyone is targettable by the AI."
+    },
+    {
+      "name": "ai.killanimals",
+      "description": "Kills all animals on the server."
+    },
+    {
+      "name": "ai.killscientists",
+      "description": "Kills all scientists on the server."
+    },
+    {
+      "name": "ai.printignoredplayers",
+      "description": "Prints the list of currently ignored players to the console."
+    },
+    {
+      "name": "ai.removeignoreplayer",
+      "description": "Removes the target ID from the NPCs ignore-list, meaning that they will be targeted by hostile AI."
+    },
+    {
+      "name": "attackentity.print_ai_stats",
+      "description": "Prints various AI stats to the console, including AI Difficulty, Effective Range Scale, Damage Scale, Attack Length Scale, Aim Cone Scale, Attack Spacing Scale, and Attack Cooldown Scale."
+    }
+  ]
+}
