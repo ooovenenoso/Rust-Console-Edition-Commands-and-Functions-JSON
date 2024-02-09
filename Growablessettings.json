@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "commandName": "growableentity.growall",
+      "description": "Advances the growth stages of all growables in an area of 6km around the player who entered the command.",
+      "example": "growableentity.growall"
+    },
+    {
+      "commandName": "growableentity.setalldying",
+      "description": "Sets the status of all growables in a radius around the player as dying.",
+      "example": "growableentity.setalldying"
+    }
+  ]
+}
