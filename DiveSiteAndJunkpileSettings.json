@@ -1,0 +1,16 @@
+{
+  "DiveSiteAndJunkpileSettings": [
+    {
+      "name": "divesite.getdivesitecounts",
+      "description": "Prints a count of all dive sites in the console log."
+    },
+    {
+      "name": "divesite.killalldivesites",
+      "description": "Destroys all divesites on the map."
+    },
+    {
+      "name": "junkpile.getjunkpilecounts",
+      "description": "Prints a count of all junksites in the console log."
+    }
+  ]
+}
