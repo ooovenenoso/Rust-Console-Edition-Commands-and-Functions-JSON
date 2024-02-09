@@ -1,0 +1,76 @@
+{
+  "itemBanning": {
+    "commandFormatting": {
+      "description": "The format of the command is: banitem \"itemshortname\" \"COMMAND\". You can chain command by adding additional commands within quotes of the third part of the command.",
+      "example": "banitem \"rifle.ak\" \"NoCrafting TechTreeBypass\""
+    },
+    "commands": [
+      {
+        "name": "banitem",
+        "usage": "banitem \"itemshortname\" \"All\"",
+        "description": "Completely removes the specified item from the server, making it unobtainable.",
+        "example": "banitem \"rifle.ak\" \"All\""
+      },
+      {
+        "name": "unbanitem",
+        "usage": "unbanitem \"itemshortname\"",
+        "description": "Un-bans an item, returning its spawning and crafting rules to default.",
+        "example": "unbanitem \"rifle.ak\""
+      },
+      {
+        "name": "banitem NoCrafting",
+        "usage": "banitem \"itemshortname\" \"NoCrafting\"",
+        "description": "Bans the item from being crafted, but it can still spawn and be researched.",
+        "example": "banitem \"rifle.ak\" \"NoCrafting\""
+      },
+      {
+        "name": "banitem TechTreeBypass",
+        "usage": "banitem \"itemshortname\" \"TechTreeBypass\"",
+        "description": "Removes the item from the Tech Tree, but children items can still be researched.",
+        "example": "banitem \"rifle.ak\" \"TechTreeBypass\""
+      },
+      {
+        "name": "banitem TechTreeBlockpath",
+        "usage": "banitem \"itemshortname\" \"TechTreeBlockpath\"",
+        "description": "Removes the item and its descendants from the Tech Tree.",
+        "example": "banitem \"rifle.ak\" \"TechTreeBlockpath\""
+      },
+      {
+        "name": "banitem NoTechTree",
+        "usage": "banitem \"itemshortname\" \"NoTechTree\"",
+        "description": "Removes the item and all items below it from the Tech Tree.",
+        "example": "banitem \"rifle.ak\" \"NoTechTree\""
+      },
+      {
+        "name": "banitem ResearchedTableBlocked",
+        "usage": "banitem \"itemshortname\" \"ResearchedTableBlocked\"",
+        "description": "Blocks the item from being researched at a research table.",
+        "example": "banitem \"rifle.ak\" \"ResearchedTableBlocked\""
+      },
+      {
+        "name": "banitem NoResearch",
+        "usage": "banitem \"itemshortname\" \"NoResearch\"",
+        "description": "Removes the item's ability to be researched from anywhere.",
+        "example": "banitem \"rifle.ak\" \"NoResearch\""
+      },
+      {
+        "name": "banitem NoItemSpawn",
+        "usage": "banitem \"itemshortname\" \"NoItemSpawn\"",
+        "description": "Prevents the item from spawning in any container.",
+        "example": "banitem \"rifle.ak\" \"NoItemSpawn\""
+      },
+      {
+        "name": "banitem NoBlueprintSpawn",
+        "usage": "banitem \"itemshortname\" \"NoBlueprintSpawn\"",
+        "description": "Prevents the blueprint of the item from spawning.",
+        "example": "banitem \"rifle.ak\" \"NoBlueprintSpawn\""
+      },
+      {
+        "name": "banitem NoSpawn",
+        "usage": "banitem \"itemshortname\" \"NoSpawn\"",
+        "description": "Stops both the item and its blueprints from spawning.",
+        "example": "banitem \"rifle.ak\" \"NoSpawn\""
+      }
+    ]
+  }
+}
