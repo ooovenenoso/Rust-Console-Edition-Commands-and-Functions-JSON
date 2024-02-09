@@ -1,0 +1,52 @@
+{
+  "commands": [
+    {
+      "commandName": "events.activeevent",
+      "description": "Lists all events that are active on the server.",
+      "example": "events.activeevent"
+    },
+    {
+      "commandName": "events.cooldowntime",
+      "description": "Lists the current cooldowns for the specified event. Leave blank to list all events.",
+      "example": "events.cooldowntime \"event_airdrop\""
+    },
+    {
+      "commandName": "events.cooldowntimemultiplier",
+      "description": "Controls the current cooldown multiplier for the specified event. Lower is faster. Leave blank to list all multipliers for all events on the server.",
+      "example": "events.cooldowntimemultiplier \"event_airdrop\" 0.5"
+    },
+    {
+      "commandName": "events.remainingtime",
+      "description": "Lists the remaining time left on a certain event. Leave blank for the remaining time on all events.",
+      "example": "events.remainingtime \"event_airdrop\""
+    },
+    {
+      "commandName": "events.stopevent",
+      "description": "Stops the specified event.",
+      "example": "events.stopevent \"event_airdrop\""
+    },
+    {
+      "commandName": "events.triggerevent",
+      "description": "Starts the specified event.",
+      "example": "events.triggerevent \"event_airdrop\""
+    }
+  ],
+  "events": [
+    {
+      "eventName": "event_airdrop",
+      "description": "A plane flies over the map and drops a crate of supplies that players can loot. Players can see the crate on the map."
+    },
+    {
+      "eventName": "event_cargoheli",
+      "description": "A helicopter manned by scientists patrols a monument and drops a locked crate there. Players can loot the crate, but it will take some time to unlock."
+    },
+    {
+      "eventName": "event_cargoship",
+      "description": "A cargo ship passes by the island. Players can find loot on it, protected by hostile scientists."
+    },
+    {
+      "eventName": "event_helicopter",
+      "description": "A helicopter patrols a section of the map, hostile to players and will attack on sight. Destroying it yields loot."
+    }
+  ]
+}
