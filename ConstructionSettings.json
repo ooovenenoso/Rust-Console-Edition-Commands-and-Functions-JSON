@@ -1,0 +1,44 @@
+{
+  "ConstructionSettings": [
+    {
+      "name": "construct.demolishabletimeseconds",
+      "description": "Controls the amount of time after a building block is built that it can be demolished for free. Time is measured in real-world seconds.",
+      "example": "construct.demolishabletimeseconds \"500\""
+    },
+    {
+      "name": "construct.demolishhammer",
+      "description": "Toggles the Demolish ability for the Hammer, allowing it to immediately destroy any building block you own.",
+      "example": "construct.demolishhammer \"1\""
+    },
+    {
+      "name": "construct.freeconstruction",
+      "description": "Toggles the ability to build structures without consuming resources. A Building Plan is still required by the player.",
+      "example": "construct.freeconstruction \"1\""
+    },
+    {
+      "name": "construct.freeupgrading",
+      "description": "Toggles the ability to upgrade building blocks without consuming resources.",
+      "example": "construct.freeupgrading \"1\""
+    },
+    {
+      "name": "construct.getbuildinginfo",
+      "description": "Prints the building information for the structure you’re looking at to the console log."
+    },
+    {
+      "name": "construct.getvendingmachineinfo",
+      "description": "Prints the building information for the vending machine you’re looking at to the console log."
+    },
+    {
+      "name": "construct.nukebuilding",
+      "description": "Obliterates the target building. Takes a Building ID, found by running the getbuildinginfo command or Ent info command when looking at the building."
+    },
+    {
+      "name": "entity.deleteby",
+      "description": "Obliterates all buildings created by the player named in the command."
+    },
+    {
+      "name": "ent destroybuilding",
+      "description": "Obliterates the building you are looking at."
+    }
+  ]
+}
