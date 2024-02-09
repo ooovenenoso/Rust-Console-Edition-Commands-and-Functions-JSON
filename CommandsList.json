@@ -1,0 +1,158 @@
+{
+  "commands": [
+    {
+      "name": "baseprojectile.fullstartingmagazine",
+      "description": "Disables/Enables a full magazine when you start with a weapon. The default starting ammunition is <50% full mag.",
+      "example": "baseprojectile.fullstartingmagazine \"1\""
+    },
+    {
+      "name": "cargoships.startegressing",
+      "description": "Forces the current Cargo Ship to exit the map, following the 'egress_duration' rules."
+    },
+    {
+      "name": "chat.enabled",
+      "description": "Disables/Enables the chat in game.",
+      "example": "chat.enabled \"1\""
+    },
+    {
+      "name": "craft.adddefaultblueprint",
+      "description": "Adds the item to the player’s inventory upon spawning.",
+      "example": "craft.adddefaultblueprint \"rock\""
+    },
+    {
+      "name": "craft.banitem",
+      "description": "Bans the item from spawning. More info here.",
+      "example": "craft.banitem \"rock\""
+    },
+    {
+      "name": "craft.CanUseRecycler",
+      "description": "Disable/Enable all of the recyclers functionality.",
+      "example": "craft.CanUseRecycler \"1\""
+    },
+    {
+      "name": "craft.listbanneditems",
+      "description": "Lists the current set of banned items for the server."
+    },
+    {
+      "name": "craft.listdefaultblueprint",
+      "description": "Lists the current set of default blueprints for the server."
+    },
+    {
+      "name": "craft.removedefaultblueprint",
+      "description": "Removes the item from the list of default items on spawn.",
+      "example": "craft.removedefaultblueprint \"rock\""
+    },
+    {
+      "name": "craft.unbanitem",
+      "description": "Removes the item from the banned item list.",
+      "example": "craft.unbanitem \"rock\""
+    },
+    {
+      "name": "dropcrate.heli_setdropzone",
+      "description": "Sets the next Chinook Code Locked Crate drop zone to be at the specified monument.",
+      "example": "dropcrate.heli_setdropzone \"lighthouse\""
+    },
+    {
+      "name": "entity.deleteby",
+      "description": "Obliterates all buildings created by the target ID. Enter a Gamertag or PSN ID.",
+      "example": "entity.deleteby \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "entity.find_entity",
+      "description": "Prints a list of all items/animals/objects, etc. and their IDs & locations to the console log.",
+      "example": "entity.find_entity \"rock\""
+    },
+    {
+      "name": "entity.find_group",
+      "description": "Prints a list of all objects in a specified group and their IDs & locations to the console log.",
+      "example": "entity.find_group \"1\""
+    },
+    {
+      "name": "entity.find_id",
+      "description": "Finds an object based on its ID. You can find the ID from using find_entity."
+    },
+    {
+      "name": "entity.find_parent",
+      "description": "Finds an object’s parent, based on its ID."
+    },
+    {
+      "name": "entity.find_self",
+      "description": "Finds information about the player who entered this command."
+    },
+    {
+      "name": "events.stopevent",
+      "description": "Stops the specified event."
+    },
+    {
+      "name": "events.triggerevent",
+      "description": "Starts the specified event."
+    },
+    {
+      "name": "global.dayview",
+      "description": "Disables/Enables eternal daylight for the player who entered it, regardless of server time.",
+      "example": "global.dayview \"1\""
+    },
+    {
+      "name": "global.ent",
+      "description": "Runs the following commands: kill, lock, unlock, who, changecode, changeguestcode."
+    },
+    {
+      "name": "global.moderatorid",
+      "description": "Grants the target Gamertag/PSN ID Moderator (Tier 2) Auth Level.",
+      "example": "global.moderatorid \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.mutevoice",
+      "description": "Disables Voice Chat features for a target Gamertag/PSN ID",
+      "example": "global.mutevoice \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.removemoderator",
+      "description": "Revokes Moderator (Tier 2) Auth Level from the target Gamertag/PSN ID.",
+      "example": "global.removemoderator \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.removevip",
+      "description": "Revokes VIP (Tier 1) Auth Level from the target Gamertag/PSN ID.",
+      "example": "global.removevip \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.say",
+      "description": "Displays the given message in the server chat box, that will be seen by all players.",
+      "example": "global.say \"Hello World!\""
+    },
+    {
+      "name": "global.skipqueue",
+      "description": "Allows the target Gamertag/PSN ID to skip the queue when the server is full.",
+      "example": "global.skipqueue \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.teleport",
+      "description": "Teleports the chosen Gamertag/PSN ID to a chosen location.",
+      "example": "global.teleport \"GamerTag/PSN ID\" (10,30,500)"
+    },
+    {
+      "name": "global.unmutechat",
+      "description": "Re-enables Quick Chat features for a target Gamertag/PSN ID.",
+      "example": "global.unmutechat \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.unmutevoice",
+      "description": "Re-enables Voice Chat features for a target Gamertag/PSN ID.",
+      "example": "global.unmutevoice \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "global.vipid",
+      "description": "Grants the target Gamertag/PSN ID VIP (Tier 1) Auth Level.",
+      "example": "global.vipid \"GamerTag/PSN ID\""
+    },
+    {
+      "name": "heli.call",
+      "description": "Summons the Attack Helicopter to roam the map."
+    },
+    {
+      "name": "heli.calltome",
+      "description": "Calls the Attack Helicopter to patrol the area around the player who entered the command."
+    }
+  ]
+}
