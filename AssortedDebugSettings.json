@@ -1,0 +1,26 @@
+{
+  "AssortedDebugSettings": [
+    {
+      "name": "debug.breakheld",
+      "description": "Breaks the current item in your hands."
+    },
+    {
+      "name": "debug.debugcamera",
+      "description": "Activates a free camera with various controls for movement, rotation, zoom, and camera speed adjustment."
+    },
+    {
+      "name": "debug.disablecondition",
+      "description": "Toggles degradation of tools and weapons based on usage.",
+      "example": "debug.disablecondition \"1\""
+    },
+    {
+      "name": "debug.noclip",
+      "description": "Toggles NoClip mode, allowing players to fly and pass through objects.",
+      "example": "debug.noclip \"1\""
+    },
+    {
+      "name": "debug.puzzlereset",
+      "description": "Resets all keycard puzzles in monuments, including loot."
+    }
+  ]
+}
