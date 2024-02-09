@@ -1,0 +1,49 @@
+{
+  "commands": [
+    {
+      "commandName": "server.combatlogclient",
+      "description": "Prints the combat log of a player to the console.",
+      "example": "server.combatlogclient \"playerID\""
+    },
+    {
+      "commandName": "server.d11oobcheck",
+      "description": "Toggles the out-of-bounds killbox underneath the map. Use '0' to disable and '1' to enable the check.",
+      "example": "server.d11oobcheck \"1\""
+    },
+    {
+      "commandName": "server.globalchat",
+      "description": "Toggles global chat. When enabled, global chat messages are seen by all players on the server. Use '0' to disable and '1' to enable.",
+      "example": "server.globalchat \"1\""
+    },
+    {
+      "commandName": "server.god",
+      "description": "Toggles god mode (invincibility) for the player who entered the command. Use '0' to disable and '1' to enable god mode.",
+      "example": "server.god \"1\""
+    },
+    {
+      "commandName": "servermgr.numsleepingplayers",
+      "description": "Displays the current number of sleeping players on the server.",
+      "example": "servermgr.numsleepingplayers"
+    },
+    {
+      "commandName": "note.lognoterenames",
+      "description": "Toggles logging of when Notes are renamed. Use '0' to disable and '1' to enable the logging.",
+      "example": "note.lognoterenames \"1\""
+    },
+    {
+      "commandName": "vehicle.boat_corpse_seconds",
+      "description": "Defines how long destroyed boats persist (in seconds) before being despawned. 'int' is a whole number representing seconds.",
+      "example": "vehicle.boat_corpse_seconds \"300\""
+    },
+    {
+      "commandName": "relationshipmanager.maxteamsize",
+      "description": "Defines the maximum amount of players that a team can have. 'int' is a whole number representing the team size limit.",
+      "example": "relationshipmanager.maxteamsize \"8\""
+    },
+    {
+      "commandName": "relationshipmanager.sleeptoggleother",
+      "description": "Sends the target player to a sleeping state.",
+      "example": "relationshipmanager.sleeptoggleother \"playerID\""
+    }
+  ]
+}
