@@ -1,0 +1,48 @@
+{
+  "EntitySettings": [
+    {
+      "name": "entity.deleteby",
+      "description": "Destroys all buildings created by the target ID.",
+      "example": "entity.deleteby \"1111\""
+    },
+    {
+      "name": "entity.deleteentity",
+      "description": "Destroys the chosen entity and checks if it has an owner.",
+      "example": "entity.deleteentity \"string\" \"0/1\""
+    },
+    {
+      "name": "entity.find_entity",
+      "description": "Prints a list of all items/animals/objects, etc. and their IDs & locations to the console log.",
+      "example": "entity.find_entity \"string\""
+    },
+    {
+      "name": "entity.find_group",
+      "description": "Prints a list of all objects in a specified group and their IDs & locations to the console log.",
+      "example": "entity.find_group \"number\""
+    },
+    {
+      "name": "entity.find_id",
+      "description": "Finds an object based on its ID. You can find the ID from using find_entity.",
+      "example": "entity.find_id \"entity ID\""
+    },
+    {
+      "name": "entity.find_parent",
+      "description": "Finds an object’s parent, based on its ID.",
+      "example": "entity.find_parent \"entity ID\""
+    },
+    {
+      "name": "entity.find_self",
+      "description": "Finds information about the player who entered this command."
+    },
+    {
+      "name": "entity.spawn",
+      "description": "Spawns an object at the specified map co-ordinates.",
+      "example": "entity.spawn \"recycler_static\" \"1,2,3\""
+    },
+    {
+      "name": "entity.spawnitem",
+      "description": "Spawns a dropped item at the specified map co-ordinates.",
+      "example": "entity.spawnitem \"mushroom\" \"1,2,3\""
+    }
+  ]
+}
