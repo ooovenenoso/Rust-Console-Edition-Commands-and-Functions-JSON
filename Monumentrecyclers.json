@@ -1,0 +1,54 @@
+{
+  "commands": [
+    {
+      "commandName": "monumentspawns.enableconfig",
+      "description": "Enables the spawning of recyclers at the target monument. Replace '[monument_name]' with the relevant monument identifier.",
+      "example": "monumentspawns.enableconfig \"dome_recycler\""
+    },
+    {
+      "commandName": "monumentspawns.disableconfig",
+      "description": "Disables the recycler spawn at the given monument. Replace '[monument_name]' with the relevant monument identifier.",
+      "example": "monumentspawns.disableconfig \"dome_recycler\""
+    },
+    {
+      "commandName": "monumentspawns.getconfigs",
+      "description": "Returns a list of the possible configurations for recycler spawns at monuments. This command is intended for use in the server console.",
+      "example": "monumentspawns.getconfigs"
+    },
+    {
+      "commandName": "monumentspawns.getenabledconfigs",
+      "description": "Returns a list of the enabled configurations active on the current server for recycler spawns at monuments. This command is intended for use in the server console.",
+      "example": "monumentspawns.getenabledconfigs"
+    }
+  ],
+  "monumentConfigurations": [
+    {
+      "name": "dome_recycler",
+      "description": "Enables the spawning of recyclers at the Dome."
+    },
+    {
+      "name": "fishing_village_large_recycler",
+      "description": "Enables the spawning of recyclers at the Large Fishing Village."
+    },
+    {
+      "name": "fishing_village_small_recycler",
+      "description": "Enables the spawning of recyclers at the Small Fishing Village."
+    },
+    {
+      "name": "oilrig_large_recycler",
+      "description": "Enables the spawning of recyclers at the Large Oil Rig."
+    },
+    {
+      "name": "oilrig_small_recycler",
+      "description": "Enables the spawning of recyclers at the Small Oil Rig."
+    },
+    {
+      "name": "stables_recycler",
+      "description": "Enables the spawning of recyclers at the Stables."
+    },
+    {
+      "name": "cargoship_recycler",
+      "description": "Enables the spawning of recyclers at the Cargoship."
+    }
+  ]
+}
