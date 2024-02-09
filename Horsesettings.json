@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "commandName": "baseridableanimal.decayminutes",
+      "description": "Defines the amount of minutes taken for a horse to die when unattended. 'int' is a whole number representing minutes.",
+      "example": "baseridableanimal.decayminutes 240"
+    },
+    {
+      "commandName": "baseridableanimal.dungtimescale",
+      "description": "Production rate of horse dung. Higher values result in faster production. 'int' is a whole number representing the timescale.",
+      "example": "baseridableanimal.dungtimescale 5"
+    }
+  ]
+}
