@@ -1,0 +1,47 @@
+{
+  "CargoShipSettings": [
+    {
+      "name": "cargoshipdynamic.cargoship_speed_scale",
+      "description": "Controls the speed of the Cargo Ship. Clamped to 5.",
+      "example": "cargoshipdynamic.cargoship_speed_scale \"1\""
+    },
+    {
+      "name": "cargoships.egress_duration_minutes",
+      "description": "Controls the time taken for the Cargo Ship to leave the map once its event has ended.",
+      "example": "cargoships.egress_duration_minutes \"5\""
+    },
+    {
+      "name": "cargoships.event_duration_minutes",
+      "description": "Controls the amount of time the Cargo Ship is active on the map for.",
+      "example": "cargoships.event_duration_minutes \"10\""
+    },
+    {
+      "name": "cargoships.event_enabled",
+      "description": "Toggles the Cargo Ship event as a whole.",
+      "example": "cargoships.event_enabled \"1\""
+    },
+    {
+      "name": "cargoships.loot_round_spacing_minutes",
+      "description": "Controls how often Code Locked Crates spawn on the Cargo Ship.",
+      "example": "cargoships.loot_round_spacing_minutes \"10\""
+    },
+    {
+      "name": "cargoships.loot_rounds",
+      "description": "Controls how many times Code Locked Crates spawn on the Cargo Ship.",
+      "example": "cargoships.loot_rounds \"5\""
+    },
+    {
+      "name": "cargoships.scientist_onboard_check",
+      "description": "Toggles scientist spawning on the Cargo Ship.",
+      "example": "cargoships.scientist_onboard_check \"1\""
+    },
+    {
+      "name": "cargoships.spawncargoship",
+      "description": "Force spawns a Cargo ship, with normal event rules. Only one Cargo Ship can be on the map at the same time."
+    },
+    {
+      "name": "cargoships.startegressing",
+      "description": "Forces the current Cargo Ship to leave the map, following the value set for egress_duration_minutes."
+    }
+  ]
+}
