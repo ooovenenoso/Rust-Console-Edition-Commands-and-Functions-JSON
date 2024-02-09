@@ -1,0 +1,15 @@
+{
+  "whitelisting": [
+    {
+      "name": "global.whitelistid",
+      "description": "Adds the given Player ID (In-game name) to the Whitelist. Has no function if Whitelist is Disabled.",
+      "example": "global.whitelistid \"2StageFright\"",
+      "effect": "User 2StageFright will be able to access the server when the whitelist is active."
+    },
+    {
+      "name": "global.removewhitelist",
+      "description": "Removes the given Player ID (In-game name) from the Whitelist.",
+      "example": "global.removewhitelist \"2StageFright\""
+    }
+  ]
+}
