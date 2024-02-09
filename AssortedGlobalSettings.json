@@ -1,0 +1,123 @@
+{
+  "AssortedGlobalSettings": [
+    {
+      "name": "global.banid",
+      "description": "Bans the specified Gamertag/PSN ID from the current server indefinitely.",
+      "example": "global.banid \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.banlist",
+      "description": "Prints a list of all banned players to the console."
+    },
+    {
+      "name": "global.banlistex",
+      "description": "Prints a list of all banned players to the console, with ban notes."
+    },
+    {
+      "name": "global.bans",
+      "description": "Prints a list of all banned players to the console."
+    },
+    {
+      "name": "global.broadcastadmincommands",
+      "description": "Toggles the display of debug commands (like noclip/god/giveto) to the in-game chat.",
+      "example": "global.broadcastadmincommands \"1\""
+    },
+    {
+      "name": "global.dayview",
+      "description": "Toggles eternal daylight for the player who entered it, regardless of server time.",
+      "example": "global.dayview \"1\""
+    },
+    {
+      "name": "global.getauthlevel",
+      "description": "Prints the current Auth Level for the specified player. Can also print Auth Levels for all players on the server.",
+      "example": "global.getauthlevel \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.god",
+      "description": "Toggles god mode for the player who entered it.",
+      "example": "global.god \"1\""
+    },
+    {
+      "name": "global.injure",
+      "description": "Forces the target player into a downed state.",
+      "example": "global.injure \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.kickall",
+      "description": "Kicks all players from the server."
+    },
+    {
+      "name": "global.killallplayer",
+      "description": "Kills all players in the server."
+    },
+    {
+      "name": "global.moderatorid",
+      "description": "Grants the target player Moderator (Tier 2) Auth Level.",
+      "example": "global.moderatorid \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.nogreen",
+      "description": "Toggles the ability for Mods+ to hide their Auth Level status on the server.",
+      "example": "global.nogreen \"1\""
+    },
+    {
+      "name": "global.removemoderator",
+      "description": "Revokes Moderator (Tier 2) Auth Level from the target player.",
+      "example": "global.removemoderator \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.removevip",
+      "description": "Revokes VIP (Tier 1) Auth Level from the target player.",
+      "example": "global.removevip \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.say",
+      "description": "Displays the given message into the server chat.",
+      "example": "global.say \"Hello World!\""
+    },
+    {
+      "name": "global.setvanishother",
+      "description": "Toggles Vanish for a target player on the server.",
+      "example": "global.setvanishother \"Gamertag/PSN ID\" \"1\""
+    },
+    {
+      "name": "global.skipqueue",
+      "description": "Allows the target player to skip the queue when the server is full.",
+      "example": "global.skipqueue \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.sleep",
+      "description": "Forces the player who entered the command to go to sleep."
+    },
+    {
+      "name": "global.teleport",
+      "description": "Teleports the chosen player to a chosen location.",
+      "example": "global.teleport \"Gamertag/PSN ID\" (10,20,500)"
+    },
+    {
+      "name": "global.teleport2me",
+      "description": "Teleports the chosen player to you.",
+      "example": "global.teleport2me \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.teleportgrid",
+      "description": "Teleports everyone in the server to a specified position, with spacing at a chosen rotation, with a maximum player count per row.",
+      "example": "global.teleportgrid \"position\" \"spacing\" \"rotation\" \"MaxPerRow\""
+    },
+    {
+      "name": "global.teleportpos",
+      "description": "Teleports a chosen player to a specified position and chooses whether to place them on the ground.",
+      "example": "global.teleportpos \"position\" \"player ID\" \"PlaceOnGround\""
+    },
+    {
+      "name": "global.unban",
+      "description": "Un-bans the specified player from the current server.",
+      "example": "global.unban \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "global.vipid",
+      "description": "Grants the target player VIP (Tier 1) Auth Level.",
+      "example": "global.vipid \"Gamertag/PSN ID\""
+    }
+  ]
+}
