@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "commandName": "baseprojectile.fullstartingmagazine",
+      "description": "Toggles a full ammunition magazine when you get a weapon. By default, starting ammunition is less than 50% full. Use '0' to disable and '1' to enable full magazines on weapon pickup.",
+      "example": "baseprojectile.fullstartingmagazine \"1\""
+    },
+    {
+      "commandName": "baseprojectile.infiniteammo",
+      "description": "Toggles infinite ammunition, meaning that the ammunition count in your magazine does not decrease. Use '0' to disable and '1' to enable infinite ammo.",
+      "example": "baseprojectile.infiniteammo \"1\""
+    }
+  ]
+}
