@@ -1,0 +1,125 @@
+{
+  "commands": [
+    {
+      "commandName": "setmonumentkillzone",
+      "description": "Toggle PvP Zones around the entered monument. Using '1' at the end of the command activates the zone. Using '0' at the end deactivates the zone.",
+      "example": "setmonumentkillzone \"sphere_tank\" 1"
+    },
+    {
+      "commandName": "clearMonumentKillzones",
+      "description": "Clears all active PvP Zones on the map. Sets every monument killzone to 0.",
+      "example": "clearMonumentKillzones"
+    },
+    {
+      "commandName": "listMonumentKillzones",
+      "description": "Lists all active PvP Zones in the console.",
+      "example": "listMonumentKillzones"
+    }
+  ],
+  "monuments": [
+    {
+      "id": "sphere_tank",
+      "description": "Enables or disables PvP zone at the Dome."
+    },
+    {
+      "id": "harbor_1",
+      "description": "Enables or disables PvP zone at the Small Harbor."
+    },
+    {
+      "id": "harbor_2",
+      "description": "Enables or disables PvP zone at the Large Harbor."
+    },
+    {
+      "id": "launch_site_1",
+      "description": "Enables or disables PvP zone at the Launch Site."
+    },
+    {
+      "id": "airfield_1",
+      "description": "Enables or disables PvP zone at the Airfield."
+    },
+    {
+      "id": "powerplant_1",
+      "description": "Enables or disables PvP zone at the Powerplant."
+    },
+    {
+      "id": "trainyard_1",
+      "description": "Enables or disables PvP zone at the Trainyard."
+    },
+    {
+      "id": "water_treatment_plant_1",
+      "description": "Enables or disables PvP zone at the Water Treatment Plant."
+    },
+    {
+      "id": "lighthouse",
+      "description": "Enables or disables PvP zone at the Lighthouse."
+    },
+    {
+      "id": "radtown_small_3",
+      "description": "Enables or disables PvP zone at the Sewer."
+    },
+    {
+      "id": "gas_station_1",
+      "description": "Enables or disables PvP zone at the Oxum’s Gas Station."
+    },
+    {
+      "id": "mining_quarry_a",
+      "description": "Enables or disables PvP zone at the Sulfur Mining Quarry."
+    },
+    {
+      "id": "mining_quarry_b",
+      "description": "Enables or disables PvP zone at the Stone Mining Quarry."
+    },
+    {
+      "id": "mining_quarry_c",
+      "description": "Enables or disables PvP zone at the HQH Mining Quarry."
+    },
+    {
+      "id": "satellite_dish",
+      "description": "Enables or disables PvP zone at the Satellite Dish."
+    },
+    {
+      "id": "supermarket_1",
+      "description": "Enables or disables PvP zone at the Supermarket."
+    },
+    {
+      "id": "warehouse",
+      "description": "Enables or disables PvP zone at the Warehouse."
+    },
+    {
+      "id": "water_well_a",
+      "description": "Enables or disables PvP zone at Water Well A."
+    },
+    {
+      "id": "water_well_b",
+      "description": "Enables or disables PvP zone at Water Well B."
+    },
+    {
+      "id": "water_well_c",
+      "description": "Enables or disables PvP zone at Water Well C."
+    },
+    {
+      "id": "water_well_d",
+      "description": "Enables or disables PvP zone at Water Well D."
+    },
+    {
+      "id": "water_well_e",
+      "description": "Enables or disables PvP zone at Water Well E."
+    },
+    {
+      "id": "oilrig_1",
+      "description": "Enables or disables PvP zone at the Large Oil Rig."
+    },
+    {
+      "id": "oilrig_2",
+      "description": "Enables or disables PvP zone at the Small Oil Rig."
+    },
+    {
+      "id": "cargoshipdynamic1",
+      "description": "Enables or disables PvP zone at the Shipping Cargoship."
+    },
+    {
+      "id": "cargoshipdynamic2",
+      "description": "Enables or disables PvP zone at the Military Cargoship."
+    }
+  ]
+}
