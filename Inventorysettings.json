@@ -1,0 +1,69 @@
+{
+  "commands": [
+    {
+      "commandName": "inventory.adddefaultitem",
+      "description": "Adds an item to the set of default items that players spawn with.",
+      "example": "inventory.adddefaultitem \"mushroom\""
+    },
+    {
+      "commandName": "inventory.bpunlock",
+      "description": "Unlocks a blueprint in the Tech Tree.",
+      "example": "inventory.bpunlock \"mushroom\""
+    },
+    {
+      "commandName": "inventory.clearall",
+      "description": "Completely empties your inventory.",
+      "example": "inventory.clearall"
+    },
+    {
+      "commandName": "inventory.cleardefaultitem",
+      "description": "Clears any items that have been added to the default inventory with adddefaultitem, meaning that players will no longer spawn with those items.",
+      "example": "inventory.cleardefaultitem"
+    },
+    {
+      "commandName": "inventory.clearitemfromplayers",
+      "description": "Removes an item from everyone’s inventories.",
+      "example": "inventory.clearitemfromplayers \"rock\""
+    },
+    {
+      "commandName": "inventory.give",
+      "description": "Gives yourself an item. You can also add a quantity.",
+      "example": "inventory.give \"mushroom\" \"11\""
+    },
+    {
+      "commandName": "inventory.giveall",
+      "description": "Gives everyone an item. You can also add a quantity.",
+      "example": "inventory.giveall \"mushroom\" \"11\""
+    },
+    {
+      "commandName": "inventory.givedrop",
+      "description": "Drops an item in front of you, instead of adding it to your inventory.",
+      "example": "inventory.givedrop \"mushroom\""
+    },
+    {
+      "commandName": "inventory.giveto",
+      "description": "Gives a target player an item.",
+      "example": "inventory.giveto \"player\" \"mushroom\""
+    },
+    {
+      "commandName": "inventory.removedefaultitem",
+      "description": "Removes an item from the set of default items the players spawn with.",
+      "example": "inventory.removedefaultitem \"torch\""
+    },
+    {
+      "commandName": "inventory.removefromcorpses",
+      "description": "Removes an item from all corpses.",
+      "example": "inventory.removefromcorpses \"torch\""
+    },
+    {
+      "commandName": "inventory.resetbp",
+      "description": "Resets everyone’s blueprint progress.",
+      "example": "inventory.resetbp"
+    },
+    {
+      "commandName": "inventory.unlockall",
+      "description": "Unlocks all blueprints for the player who entered the command.",
+      "example": "inventory.unlockall"
+    }
+  ]
+}
