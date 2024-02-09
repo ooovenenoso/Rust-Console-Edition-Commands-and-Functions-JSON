@@ -1,0 +1,14 @@
+{
+  "CCTVSettings": [
+    {
+      "name": "cctvrender.assignmentcooldown",
+      "description": "When a player is in the frame of a CCTV camera, this integer defines how often the camera screen updates. Lower is faster.",
+      "example": "cctvrender.assignmentcooldown \"5\""
+    },
+    {
+      "name": "cctvrender.enabled",
+      "description": "Toggles CCTV cameras’ rendering abilities.",
+      "example": "cctvrender.enabled \"1\""
+    }
+  ]
+}
