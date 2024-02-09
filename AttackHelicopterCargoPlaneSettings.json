@@ -1,0 +1,34 @@
+{
+  "AttackHelicopterCargoPlaneSettings": [
+    {
+      "name": "heli.call",
+      "description": "Summons the Attack Helicopter to roam the map, if the event is active."
+    },
+    {
+      "name": "heli.calltome",
+      "description": "Calls the Attack Helicopter to patrol the area around the player who entered the command."
+    },
+    {
+      "name": "heli.drop",
+      "description": "Spawn an Attack Helicopter at a specified player’s location.",
+      "example": "heli.drop \"Gamertag/PSN ID\""
+    },
+    {
+      "name": "heli.dropatplayer",
+      "description": "Alias for heli.drop command, functioning the same by spawning an Attack Helicopter at a specified player’s location."
+    },
+    {
+      "name": "dropcrate.heli_setdropzone",
+      "description": "Sets the next Chinook Code Locked Crate drop zone to be at the specified monument.",
+      "example": "dropcrate.heli_setdropzone \"lighthouse\""
+    },
+    {
+      "name": "supply.call",
+      "description": "Calls the cargo plane - and will choose a random drop location."
+    },
+    {
+      "name": "supply.drop",
+      "description": "Calls the cargo plane and will drop a supply crate at the player's position."
+    }
+  ]
+}
