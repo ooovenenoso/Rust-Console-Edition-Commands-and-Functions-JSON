@@ -1,0 +1,24 @@
+{
+  "BradleyAPCSettings": [
+    {
+      "name": "bradley.enabled",
+      "description": "Toggles the Bradley APC spawning function.",
+      "example": "bradley.enabled \"1\""
+    },
+    {
+      "name": "bradley.quickrespawn",
+      "description": "Toggles the Bradley Quick-Respawn function.",
+      "example": "bradley.quickrespawn \"1\""
+    },
+    {
+      "name": "bradley.respawndelayminutes",
+      "description": "Controls the amount of time after the Bradley APC is destroyed, that it respawns. Time is measured in real-world minutes.",
+      "example": "bradley.respawndelayminutes \"5\""
+    },
+    {
+      "name": "bradley.respawndelayvariance",
+      "description": "Defines the variance at which the Bradley APC spawns. Smaller is less variance.",
+      "example": "bradley.respawndelayvariance \"2\""
+    }
+  ]
+}
