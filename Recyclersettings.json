@@ -1,0 +1,19 @@
+{
+  "commands": [
+    {
+      "commandName": "CanUseRecycler",
+      "description": "Enable or disable interaction with recyclers. Use '0' to disable and '1' to enable.",
+      "example": "CanUseRecycler \"1\""
+    },
+    {
+      "commandName": "RecyclerNextRecycleTime",
+      "description": "Sets the rate at which items are recycled. Lower values make recycling faster. 'int' is a whole number representing seconds.",
+      "example": "RecyclerNextRecycleTime \"5\""
+    },
+    {
+      "commandName": "RecyclerStartTime",
+      "description": "Sets the warm up time for the recyclers before they start to recycle. Lower values reduce the warm up time. 'int' is a whole number representing seconds.",
+      "example": "RecyclerStartTime \"3\""
+    }
+  ]
+}
