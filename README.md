@@ -25,6 +25,7 @@ Below is a list of the available `.json` configuration files, each serving a uni
 - **Horsesettings.json**: Horse-related configurations for AI to learn about mounted travel and animal care.
 - **Inventorysettings.json**: Inventory management settings, essential for AI to optimize resource use and storage.
 - **ItemBanning.json**: Lists items banned from the game, teaching AI about game balance and rule enforcement.
+- **Items-Rust-Console-Edition.json**: Contains all items in the game, providing comprehensive knowledge of in-game resources and their properties.
 - **KillZones.json**: Defines PvP areas, challenging AI to understand combat zones and player engagement rules.
 - **KitSpawning.json**: Settings for spawning kits, allowing AI to learn about gear distribution and optimization.
 - **Miscellaneoussettings.json**: A collection of various settings, providing a wide range of learning scenarios for AI.
